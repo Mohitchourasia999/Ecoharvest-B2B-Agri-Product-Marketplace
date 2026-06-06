@@ -1,0 +1,34 @@
+/**
+ * Purpose: Minimal custom CSS for the application.
+ * Most styling comes from Bootstrap. This file only adds
+ * small tweaks that Bootstrap doesn't cover.
+ */
+
+/* Ensure footer stays at bottom */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push main content area to fill available space */
+.main-content {
+  flex: 1;
+}
+
+/* Simple navbar brand styling */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Card hover effect - subtle shadow */
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
