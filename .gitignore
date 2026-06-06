@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Java/Maven
+target/
+.metadata/
+.settings/
+.classpath
+.project
+
+# IDE and OS files
+.vscode/
+.DS_Store
+*.log
